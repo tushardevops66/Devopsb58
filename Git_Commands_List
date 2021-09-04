@@ -1,6 +1,7 @@
 ################ List of Git Commands ################ 
 
 # Creating Your Git Profile
-Configure the author name -             git config --global user.name "<username>"
-Configure the author email address -    git config --global user.email <email address>
+Configure the author name -                                                             git config --global user.name "<username>"
+Configure the author email address -                                                    git config --global user.email <email address>
+add a file as it looks now to your next commit (stage)                                  git add [file]
 
