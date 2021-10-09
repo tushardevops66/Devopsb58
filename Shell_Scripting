@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# Script to test the various functionalities of Shell Scripting
-print ""
-
-read -p 'Enter a No between 2 & 3 : ' input
-echo $input
