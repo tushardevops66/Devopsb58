@@ -14,6 +14,7 @@ if [ -z "$COMPONENT" ]; then
         echo "Input is Missing!"
         exit 1
 else
+        echo "Calling the Create New Spot Instance Function"
         Create_New_Spot_Instance
         exit 0
 fi 
