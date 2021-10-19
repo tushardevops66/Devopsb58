@@ -10,3 +10,10 @@ Create_New_Spot_Instance() {
         echo $IP
 }
 
+if [ -z "$COMPONENT" ]; then
+        echo "Input is Missing!"
+        exit 1
+else
+        Create_New_Spot_Instance
+        exit 0
+fi 
